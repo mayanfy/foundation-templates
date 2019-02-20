@@ -1,0 +1,115 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Foundation Templates</title>
+    <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+
+    <style>
+        /* Import desired font from Google fonts */
+        @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+        /* Apply the font to body (to override the default one) */
+        body {
+          font-family: Nunito, sans-serif;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div id="foundation"></div>
+    <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+    <script>
+
+      new Docute({
+        target: '#foundation',
+        title: 'Foundation Templates',
+        nav: [
+          {
+            title: 'INICIO',
+            link: '/'
+          },
+          {
+            title: 'GitHub',
+            link: 'https://github.com/mayanfy/foundation-templates'
+          }
+        ],
+        sidebar: [
+          // A sidebar item, with multiple sub-links
+          {
+            title: 'Guia', // Optional
+            links: [
+              {
+                title: 'Cómo empezar',
+                link: '/Guide/getting-started'
+              },
+              {
+                title: 'Instalación',
+                link: '/Guide/installation'
+              },
+            ]
+          },
+          {
+            title: 'Blog', // Optional
+            links: [
+              {
+                title: 'General',
+                link: '/Blog/getting-started'
+              },
+              {
+                title: 'Home',
+                link: '/Blog/home'
+              },
+              {
+                title: 'Single',
+                link: '/Blog/single'
+              },
+              {
+                title: 'Contacto',
+                link: '/Blog/contact'
+              },
+            ]
+          },
+          {
+            title: 'Corporativo',
+            links : [
+              {
+                title: 'General',
+                link: '/Corporativo/getting-started'
+              },
+            ]
+          },
+          {
+            title: 'Landing Page',
+            links : [
+              {
+                title: 'General',
+                link: '/Landingpage/getting-started'
+              },
+            ]
+          },
+          {
+            title: 'Vcard',
+            links : [
+              {
+                title: 'General',
+                link: '/Vcard/getting-started'
+              },
+            ]
+          },
+          {
+            title: 'Misceláneo',
+            links : [
+              {
+                title: 'Creditos',
+                link: '/Credits/getting-started'
+              },
+            ]
+          }
+        ]
+      })
+
+    </script>
+  </body>
+</html>

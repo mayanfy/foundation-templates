@@ -1,2 +1,4 @@
 # foundation-templates
-elements for a wordpress template such as a blog, corporate page or landing page.
+
+Informacion basica de elementos que contiene una plantilla web a la que posteriormente se pasara a una plantilla wordpress.
+
